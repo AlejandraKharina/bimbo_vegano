@@ -1,0 +1,120 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #0047BA;
+    padding: 10px 0;
+    color: white;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header #logo img {
+    height: 50px;
+    width: auto;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background: url('images/hero-bg.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 315px; /* Ajustado a la altura especificada */
+}
+
+/* Pan Vegano Section */
+#info-principal {
+    background-color: #F5F5F5;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#info-principal h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#info-principal p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+#info-principal .cta-button {
+    background: #FFCC00;
+    color: #0047BA;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Producto Section */
+#producto {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.product-detail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.product-detail img {
+    width: 500px;
+    border-radius: 10px;
+}
+
+/* Receta Section */
+#receta {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#receta ul {
+    list-style: none;
+    text-align: left;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+#receta ul li {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .social-icons img {
+    width: 30px;
+    margin: 0 5px;
+}
